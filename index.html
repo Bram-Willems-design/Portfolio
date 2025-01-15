@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+
+    <nav id="desktop-nav">
+        <div class="logo"><a href="index.html">Bram Willems</a></div>
+        <div>
+          <ul class="nav-links">
+              <li><a href="#PersonalIdentity">About me</a></li>
+              <li><a href="#Vision">Vision</a></li>
+              <li><a href="#Expertise">Expertise</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>  
+    </nav>
+
+    
+    <nav id="hamburger-nav">
+        <div class="logo">Bram Willems</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#PersonalIdentity" onclick="toggleMenu()">About me</a></li>
+                <li><a href="#Vision" onclick="toggleMenu()">Vision</a></li>
+                <li><a href="#Expertise" onclick="toggleMenu()">Expertise</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+  
+
+    <section id="profile">
+        
+        <div class="section__pic-container">
+            <img src="./Content_Own_Work/Profile picture Website V2.jpg" 
+            alt="Bram Willems profile picture"
+           />
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title"> Bram Willems</h1>
+            <p class="section__text__p2">Industrial Designer</p>
+
+            <br>
+            
+            <div class="intro-container">
+                <p>
+                    Welcome to my Website. Currrently, I am graduating for my master Industrial Design from the TU/e.
+                    <br>
+                    This website is a combination of my Personal Development Plan, which I updated throughout my master's,
+                    and my Portfolio, which contains the best (relevant) projects and course assigments. Both my Personal
+                    Development Plan and a more general version of my Portfolio can be downloaded down below.
+                </p>
+            </div>
+            
+            <br>
+
+            <div class="btn-container">
+
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./Content_Own_Work/PDF Files/M22_PDP_Willems_B.C.J_Website.pdf'"
+                >Download PDP</button>
+                
+                <button 
+                class="btn btn-color-2" 
+                onclick="location.href='./Content_Own_Work/PDF Files/Portfolio_Bram_Willems_English_2025 Website.pdf'" 
+                >Download Portfolio</button>
+
+            </div>
+    
+
+        </div>
+    </section>
+
+
+    <section id="PersonalIdentity">
+        <h1 class="title">About me</h1>
+        <p class="section__text__p1">Who am I as as person</p> 
+
+        <div class="personal-identity-text-container">
+            <p>
+                I would describe myself as a technical, creative, and organised person. 
+                From early on, I have always been interested in how products function, 
+                look, and are produced. The technical side of products like electronics 
+                and mechanics made me interested in the design field. I am also interested 
+                in people’s experiences and interactions while using a product. I also find 
+                it essential that the products I develop serve and help people during their 
+                work or daily life. The connectedness with people and the solution-orientated 
+                design projects I like to work on give me the motivation and energy to continue 
+                with what I am doing. For this reason, I try to involve many people during the 
+                process to get the most out of the work that I do. 
+            <p> 
+
+                <br>
+
+            <p>
+                When working on projects, I work best when the environment and the work plan are structured 
+                and organized. I find it important that the tasks that I am working on are completely and 
+                evenly worked out. I am most satisfied and proud of my work when I look at the end result 
+                and know that the process went smoothly and according to plan.
+            <p>   
+            
+                <br>
+                
+            <p>
+                I do not have a strong preference for an individual or group-oriented project because I feel at 
+                home in both an individualistic and a group-oriented environment. I can adjust pretty well to my 
+                surroundings and work environment. When I work on a group-orientated project, I find it important 
+                that everyone is motivated and equally involved, and that the work is evenly distributed. However, 
+                when that is not the case, I prefer working individually because then I can make sure that the task 
+                and result will be achieved.
+            <p>
+               
+                <br>
+                
+            <p>
+                Although I find the design process very interesting, I must say that the results are just as important 
+                to me. This can lead to my approach becoming more practical, efficient and results-oriented. As mentioned 
+                earlier, the structure I create for myself ensures that I achieve the results I strive for without compromising 
+                the process. 
+            <p>
+                
+                <br>
+                
+            <p>
+                When I work on projects, I always try to apply my (newly gained) knowledge to improve my process and, therefore, 
+                my quality of work. I also always aim to understand the design challenge and the problem context as well as possible 
+                because I believe they will help me greatly with the process. For that reason, I always try to analyse the context thoroughly. 
+                My intrinsic motivation helps me ensure that everything is done as I envisioned towards the end of every project and delivers 
+                a great result.
+            <p>
+
+        </div>
+
+        <img 
+        src="./Content_Own_Work/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#ProfessionalIdentity'"
+        />
+
+    </section>
+
+
+    <section id="ProfessionalIdentity">
+        <h1 class="title"></h1>
+        <p class="section__text__p1">Who I am as a Designer</p>
+
+        <div class="about-professional-identity-container">
+            <div class="about-containers">
+                <div class="professional-identity-container-text">
+                   
+                    <p>
+                        As a designer, I aim to design and develop technical products that are useful and meaningful which could help 
+                        people with everyday tasks or work. This is not merely by focusing on the product itself but also by integrating 
+                        other aspects like stakeholders and user experience during the whole design process.  
+                    <p> 
+
+                        <br>
+
+                    <p>
+                        What drives me within design is the process of creating something from a simple idea or problem towards a working 
+                        prototype as a solution. This is achieved by combining design with technology and the involvement of stakeholders, 
+                        research, testing, and prototyping. I aim to create purposeful, valuable, and high-quality products that create an 
+                        experience for the end users.  I enjoy converting problems into solutions and then communicating those solutions by 
+                        creating visual content, (such as visuals, 3D models, renders, and videos) or physical content like prototypes. 
+                        I also think it is important to collaborate with stakeholders to get more out of the process.
+                    <p> 
+                        
+                        <br>
+                            
+                    <p>
+                        My interests during the study have grown towards electronic products that are medical or health-related. This is due 
+                        to my interest in technical products and my belief that products should be developed for useful applications that serve 
+                        and benefit people or our planet. Creating products or doing research for a field which is rapidly involving and innovating, 
+                        makes me curious about what I can contribute. This is because I get energy and fulfilment from the work I do when I work with 
+                        people, especially people who are grateful, interested, and open-minded to new ideas and products that can help them.
+                    <p> 
+                        
+                        <br>
+                    
+                    <p>
+                        What inspires me as a designer is work from other designers who develop products which have been around for a long time and 
+                        that have not changed much due to their brilliant design and function. People who can make high-end functional products without 
+                        compromising on aesthetics or looks. Products like this will give the users a pleasant feeling when using and interacting with 
+                        them. This will also result in less waste when repairing is more likely than with cheap products which are made to be used less 
+                        long or purely for creating revenue.
+                    <p> 
+                        
+                        <br>
+
+                    <p>
+                        Because of my creativity and technical background, I think that I am a good all-rounded designer. My strengths therefore I would 
+                        say are technical aspects, like electronics, programming, computer-aided design (3D CAD), and prototyping. But also my eye for 
+                        detail, intrinsic motivation, and other skills help me to deliver quality work. One of my abilities and qualities I could work on 
+                        is, for example, my ability to be more open-minded. With my engineering background, I tend to be slightly more straightforward with 
+                        my goals and ideas. In addition, although I like working with other designers, I find it sometimes difficult to give certain tasks 
+                        away or let someone else finish or change the work I started with. 
+                    <p> 
+
+
+                </div>
+            </div>
+        </div>
+
+        <img 
+        src="./Content_Own_Work/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Past-Present-Future'"
+        />
+
+    </section>
+
+
+    <section id="Past-Present-Future">
+        <h1 class="title"></h1>
+        <p class="section__text__p1">My past-present-future</p>
+
+    
+        <div class="about-past-present-future-container">
+            <div class="about-containers">
+                
+                <div class="past-present-future-container-text">
+                    <h3>My Past</h3>
+                    <p>
+                        Because of my early interest in the technical field, I first studied <span style="color: rgb(255, 94, 0)">Engineering</span> 
+                        in Breda. After graduating, I concluded that I enjoyed working on technical products and systems but that I missed the creative 
+                        part during the process and the interaction between the users and the products that I was developing.  
+
+                        Therefore, I started the <span style="color: rgb(46, 150, 80)">bachelor of Industrial Product Design</span> at the 
+                        Hogeschool Rotterdam. Throughout this study, I realised that developing user-oriented products was far more interesting 
+                        and valuable to me. After graduating from the bachelor program, I decided to start with the pre-master program of Industrial 
+                        Design at the Eindhoven University of Technology to gain more knowledge within the work field and on certain topics like user 
+                        experience and innovating novel technologies. 
+                        
+                        When I completed the pre-master, I continued with the <span style="color: rgb(0, 195, 255)">master of Industrial Design</span>. 
+                        This allowed me to further specialise in academic subjects that interested me and that were related to product development. 
+                        The master also greatly helped me to develop myself on a professional level and with scoping my vision.
+                    <p>
+
+                        <br />
+                        
+                        <h3>My Present</h3>
+                    <p>
+                        I am currently graduating from the Master of Industrial Design at the Eindhoven University of Technology. During my master I chose 
+                        the Master Track: Research, Design, and Development because it fits my personal and professional identity the best. By choosing this 
+                        track and following specific offered courses during the master, I believe I can achieve the goals I have set in my vision and future 
+                        plans. Through my different previous educations, I have developed many different skills that I can use and that have made me the 
+                        Industrial Designer I am today.
+                    <p>
+
+                        <br />
+                        
+                        <h3>My Future</h3>
+                    <p>
+                        During this master, I concluded that I want to continue working and designing for medical environments with the development of technical, 
+                        electronic and innovative equipment. It fits my vision and areas of expertise best and I feel that I get the most satisfaction from working 
+                        in that environment. I see myself working in a medium to large company (design agency) where people from multiple disciplines work together. 
+                        I have previous experience working in a small (5-8 people) medical company as part of a design team of two. However, I feel that I have more 
+                        to offer and learn in a larger design team.
+                    <p>
+
+                </div>
+
+
+                <div class="past-present-future-container-pic">
+                    <img 
+                    src="Content_Own_Work/Website Figures/Personal Identity map.png" 
+                    alt="personal Identity"
+                    class="personal-pic"
+
+                    />  
+                </div>
+
+            
+            </div>
+        </div>
+
+        <img 
+        src="./Content_Own_Work/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Vision'"
+        />
+
+    </section>
+
+
+    <section id="Vision"> 
+        <h1 class="title">My Vision</h1>
+        <p class="section__text__p1"></p>
+    
+        <div class="about-vision-container">
+            <div class="about-containers">
+            
+                <div class="vision-container-text"> 
+
+                    <h3>Future View</h3>
+                    <p>
+                        Over the next five to ten years, <span style="color: rgb(255, 94, 0)">technology will be integrated into our daily lives more than ever</span>.
+                        If we look at AI, for example, it is expected that AI will show a (market) growth of around 30% by 2030 
+                        (Statista, 2024). This means that we as designers are more concerned than ever with technology-oriented 
+                        products. We strive to make our lives as efficient and comfortable as possible. However, when we look at 
+                        healthcare, for example, the workload for healthcare professionals continues to increase and it becomes 
+                        more difficult to find new people. In low-income countries, a shortage of 10 million health workers is 
+                        expected by 2030 (World Health Organization: WHO, 2019). In a field that needs more assistance, with an 
+                        expected growth of 15.7% worldwide (Statista, 2024), we as designers could make a difference by innovating 
+                        and developing new products to serve and help every stakeholder involved. We could help people prepare for 
+                        the coming market growth and make sure that everyone can get the help that they may need in the future.
+                    </p>
+
+                        <br> 
+                        
+                    <h3>My Focus</h3>
+                    <p>
+                        Within my vision, <span style="color: rgb(255, 94, 0)">I strive to integrate innovative technology</span> 
+                        with products and systems without compromising or eliminating the user’s interaction and experience. I fully 
+                        believe that using technology is a good thing, but I also want to keep in mind that we should not neglect the 
+                        human factor and experience when looking for new solutions and creating new products. The <span style="color: rgb(255, 94, 0)">products must remain user-oriented</span>, 
+                        even if they work faster, are smarter, or take over certain tasks.
+                    </p>
+    
+                        <br> 
+
+                    <h3>My Goal</h3>
+                    <p>
+                        My goal is to <span style="color: rgb(255, 94, 0)">design and develop useful and meaningful products</span> that solve real and specific problems for people 
+                        and together with people. To achieve this result, I took courses and electives that focused on users and society, 
+                        more specifically on topics such as interaction, experience and medical healthcare. During my studies, I also took 
+                        more technical-focused subjects such as interfaces, data, and electronics, because of my interest in technology and 
+                        the realisation of products. This combination of acquired knowledge has helped me to achieve my current goals and 
+                        will prepare me for my future goals.
+                    </p>
+                </div>
+
+            
+            <div>
+        </div>
+
+    
+        <img 
+        src="./Content_Own_Work/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Expertise'"
+        />
+    </section>
+
+
+    <section id="Expertise"> 
+        <h1 class="title">My Areas of Expertise</h1>
+        <p class="section__text__p1"></p>
+       
+        <div class="about-expertise-container">
+            <div class="about-containers">
+    
+                <div class="expertise-container-text">          
+                    <h3>Chosen Areas of Expertise</h3>
+                    <p>
+                        During my master Industrial Design, I decided to focus on <span style="color: rgb(255, 94, 0)">Technology & Realisation</span> 
+                        and <span style="color: rgb(255, 94, 0)">User & Society</span> as my two main areas of expertise. I have chosen Technology & Realisation 
+                        because of my interest in technical products and my previous education. I choose User & Society because I value useful products that have a 
+                        positive impact on all stakeholders involved. Currently, I am interested in health-related projects and products, therefore I think that choosing 
+                        Technology & Realisation and User & Society as areas of expertise is a strong combination and will work well together for my professional development 
+                        as a designer. In addition, the <span style="color: rgb(255, 94, 0)">Design & Research Processes</span> competence is shown due to it being the 
+                        fundamental of the master Industrial Design. I also additionally highlighted <span style="color: rgb(255, 94, 0)">Creativity & Aesthetics</span> 
+                        because that was a previous choice which I developed before changing it to User & Society.
+                    </p>
+
+                </div>
+
+
+                <div class="expertise-container-pic">
+                    <img 
+                    src="Content_Own_Work\Website Figures\Expertise Map Bram Willems.png" 
+                    alt="professional Identity"
+                    class="professional-pic"
+
+                    />  
+                </div>
+            
+            </div>
+        </div>
+
+
+        <div class="expertise2-container-text">          
+            <p class="section__text__p1">Integration Expertise Area’s during Master</p>
+
+            <br> 
+
+            <h3><span style="color: rgb(0, 162, 255)">Business and Entrepreneurship</span></h3>
+            <p>
+                This expertise area is mostly about the business side of design. While I didn’t specifically follow any courses focused on 
+                this expertise area, I did integrate this area in multiple projects, such as my FMP, by including various stakeholders during 
+                the process and analysing the product’s feasibility, viability, and desirability through value propositions and looking at the 
+                product’s position and potential. 
+            </p>
+
+            <br> 
+
+            <h3><span style="color: rgb(209, 0, 0)">Creativity and Aesthetics</span></h3>
+            <p>
+                I argue that this expertise area is mandatory to develop during an education as a designer. During this master, I followed courses 
+                about this subject, focussing on transforming thinking patterns and interaction with materials. For me, creativity is about creating 
+                the right solution for a given problem using the right approach, as I did during my FMP. Aesthetics for me, is focussing on the 
+                perception and interaction between the user and the product. My M1.1 Design Project: Quetta and Course Elective: Paradox are good 
+                examples of how to integrate this area within a design challenge. 
+            </p>
+
+            <br> 
+
+            <h3><span style="color: rgb(143, 0, 209)">Math, Data and Computing</span></h3>
+            <p>
+                During this master, I took courses on topics, such as data structures, algorithms (AI), and data-enabled design to enhance my skills 
+                regarding using and analysing collected data. I deployed these skills, especially during my M1.2 Research Project: Vein Finding by 
+                collecting and analysing quantitative and qualitative data. But also during my FMP through analysing sensory data. 
+            </p>
+
+            <br> 
+
+            <h3><span style="color: rgb(245, 180, 0)">Technology and Realisation</span></h3>
+            <p>
+                During this master, I further developed myself on a technical level by following courses about new and innovative technologies. 
+                I did this to broaden my existing skills and to become more familiar with other types of technology. This is to get more out of 
+                the products that I develop and to improve my prototyping skills. I demonstrated this in almost all my projects during my master 
+                (M1.1, M1.2, and FMP), by making high-fidelity interactive prototypes which illustrated the desired features and functions to its users.
+            </p>
+
+            <br> 
+
+            <h3><span style="color: rgb(0, 160, 0)">User and Society</span></h3>
+            <p>
+                The user and society are, in general, a large part of my aim regarding professional identity and vision. Therefore, I took a few courses 
+                about user experience in theory, practice, and design. This was to develop my overall skills in understanding involved stakeholders better 
+                during the design process and aspects like interaction with a product or system. I also took a specific course about researching the future 
+                of products, users, and society which helped me shape and adjust my vision. All these courses highly influenced my perspective on designing 
+                for users and society. As a result, I involved multiple stakeholders and performed multiple evaluations during the design process of my final master project.
+            </p>
+
+            <br> 
+
+            <h3><span style="color: rgb(34, 186, 247)">Design & Research Processes</span></h3>
+            <p>
+                My master graduation project was, in my opinion, an ideal example of a design and research process. This is because the chosen design approach 
+                (double diamond) and methods were a good fit with the overall design challenge and my chosen master track (RDD). This allowed me to showcase all 
+                the knowledge gained during the master. The FMP included extensive necessary research at the beginning to get a clear picture of the problem and 
+                context. The second part showed the iterative process of the design and development of the product. This all resulted in a solution, which showed 
+                great potential for all stakeholders involved.
+            </p>
+
+        </div>
+          
+        
+        <img 
+        src="./Content_Own_Work/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Projects'"
+        />
+
+
+    </section>
+
+
+    <section id="Projects">
+        <p class="section__text__p1">Browse My</p>
+        <h1 class="title">Projects</h1>
+        
+        <div class="master-project-container">
+            <div class="about-containers">
+
+                <div class="column-4 project-1">
+                    
+                    <a href="project1 My-Odine.html" target="_blank">
+                        <img 
+                        src="./Content_Own_Work/Project Banners/My-Odine Project Banner.png" 
+                        alt="Project 1" 
+                        class="Bproject-img">
+                    </a>
+                     
+                <p class="Bproject-text">M2.2 FMP Project: <span style="color: rgb(255, 94, 0)">My-Odine</span> </p>
+                </div>
+
+
+                <div class="column-4 project-2">
+                
+                    <a href="project2 NIT.html" target="_blank">
+                        <img 
+                        src="./Content_Own_Work/Project Banners/Vein Finder Project Banner.png"
+                        alt="Project 2" 
+                        class="Bproject-img">
+                    </a>
+                
+                <p class="Bproject-text">M1.2 Project: <span style="color: rgb(255, 94, 0)">Needle injecton tool</span> </p>
+                </div>
+
+
+                <div class="column-4 project-3">
+                
+                    <a href="project3 Quetta.html" target="_blank">
+                        <img 
+                        src="./Content_Own_Work/Project Banners/Quetta Project Banner.png"
+                        alt="Project 3" 
+                        class="Bproject-img">
+                    </a>
+                
+                <p class="Bproject-text">M1.1 Project: <span style="color: rgb(255, 94, 0)">Quetta</span> </p>
+                </div>
+
+
+                <div class="column-4 project-4">
+                
+                    <a href="project4 Paradox.html" target="_blank">
+                        <img 
+                        src="./Content_Own_Work/Project Banners/Paradox Project Banner.jpg" 
+                        alt="Project 4" 
+                        class="Bproject-img">
+                    </a>
+                
+                <p class="Bproject-text">M2.1 Elective Project: <span style="color: rgb(255, 94, 0)">Paradox</span> </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <img 
+        src="./Content_Own_Work/arrow2.png" 
+        alt="Arrow2 icon"
+        class="icon arrow2"
+        onclick="location.href='./#desktop-nav'"
+        />
+    
+    </section>
+
+
+    <section id="Contact">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            
+            <div id="socials-container">
+                <img src="./Content_Own_Work/linkedin logo.png" 
+                alt="My linkedin profile"
+                class="contacticon" 
+                onclick="location.href ='https://www.linkedin.com/in/bram-willems-20a31a159/'">
+            </div>
+            
+            <div id="socials-container">
+                <img 
+                src="./Content_Own_Work/Email Icon.png" 
+                alt="Email icon" 
+                class="contacticon"
+                onclick="location.href='mailto:bcjwillems@outlook.com'">
+            </div>
+
+        </div>
+
+    </section>
+        
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#PersonalIdentity">About me</a></li>
+                    <li><a href="#Vision">Vision</a></li>
+                    <li><a href="#Expertise">Expertise</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+            <p>
+                <br>
+                Copyright &#169; 2025 Bram Willems. All rights Reserved.
+            </p>
+        
+                <br>
+                <br>
+                <br>
+                <div class="logo"><a href="index.html">Bram Willems</a></div>
+            
+            <p>
+                <br>
+                <span style="color: rgb(50, 50, 50)">I build this website all 
+                    by myself by following an online tutorial and with the assistance 
+                    of ChatGPT to create interactive elements and additional web pages. 
+                </span> 
+            </p>
+            
+    </footer>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
+
