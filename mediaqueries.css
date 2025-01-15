@@ -1,3 +1,7 @@
+
+
+
+
 @media screen and (max-width: 1400px) {
    
     #profile {
@@ -92,7 +96,8 @@
     }
     
     .about-containers, 
-    .contact-info-upper-container, 
+    .contact-info-upper-container,
+    .intro-container, 
     .btn-container { 
         flex-wrap: wrap;
         width: auto;
@@ -123,7 +128,7 @@
 
     .section__pic-container {
         width: auto;
-        height: 46vw;
+        height: 99vw;
         justify-content: center;
     }
 
@@ -148,5 +153,81 @@
     .section-container{
         height: fit-content;
     }
+
+
+
+
+
+
+
+    #hamburger-nav {
+        display: flex;
+        gap: 0;
+    }
+
+
+    .intro-container {
+        width: auto;
+        padding-inline: 25px;
+        justify-content: center;
+    }
+
+    
+    .personal-identity-text-container {
+        width: auto;
+        padding-inline: 0;
+        justify-content: center;
+    }
+
+
+    .professional-identity-container-text {
+        width: auto;
+        padding-inline: 0;
+        justify-content: center;
+    }
+
+
+    #Past-Present-Future, 
+    .about-containers {
+       display: block; 
+    }
+
+    .past-present-future-container-text {
+        width: auto;
+        padding-inline: 0;
+        justify-content: center;
+    }
+
+    .past-present-future-container-pic img{
+        width: 80vw;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+
+
+    .vision-container-text {
+        width: auto;
+        padding-inline: 0;
+        justify-content: center;
+    }
+
+
+    .expertise-container-pic img{
+        width: 80vw;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .expertise2-container-text {
+        width: auto;
+        padding-inline: 25px;
+        justify-content: center;
+    }
+
+
+
+
 }
     
