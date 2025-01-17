@@ -80,8 +80,7 @@
     #ProfessionalIdentity,
     #Past-Present-Future, 
     #Vision,
-    #Expertise,
-    #Projects {
+    #Expertise {
         height: auto;
         margin-bottom: 0;
     }
@@ -223,7 +222,10 @@
         justify-content: center;
     }
 
-
+    #Projects {
+        height: 200vh;
+        margin-bottom: 0;
+    }
 
 
 }
