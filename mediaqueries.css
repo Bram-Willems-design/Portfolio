@@ -127,8 +127,6 @@
     }
 
     .section__pic-container {
-        width: auto;
-        height: 99vw;
         justify-content: center;
     }
 
