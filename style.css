@@ -200,8 +200,7 @@ section {
 .section__pic-container {
     display: flex;
     align-self: center;
-    overflow: hidden;  
-    position: relative;
+    overflow: hidden;
     border: rgb(199, 199, 199) 0.1rem solid;
     border-radius: 2.0rem;
 }
