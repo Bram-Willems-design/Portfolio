@@ -244,6 +244,17 @@
         margin-bottom: 0;
     }
 
+   
+    #contact{
+        height: 40vh;
+    }
+
+   
+    #footer {
+        height: auto;
+    }
+
+
 
 }
     
