@@ -201,7 +201,7 @@
     }
 
     .past-present-future-container-pic img{
-        width: 75vw;
+        width: 80vw;
         padding: 0;
         margin: 2rem;
         align-content: center;
@@ -215,13 +215,19 @@
     }
 
 
+    .expertise-container-pic {
+        width: auto;
+        margin: 0;
+    }
+
     .expertise-container-pic img{
         width: 80vw;
         padding: 0;
-        margin: 0;
-        justify-content: center;
+        margin: 1rem;
+        align-content: center;
     }
 
+   
     .expertise2-container-text {
         width: auto;
         padding-inline: 25px;
