@@ -526,8 +526,9 @@ body.loaded .title {
 
 .expertise2-container-text {
     text-align: justify;
-    padding: 1.5rem;
+    padding-top: 15rem;
     padding-inline: 12rem;
+    padding-bottom: 5rem;
     flex: 1;
 }
 
@@ -709,7 +710,7 @@ body.loaded .title {
 /* Footer Section */
 
 footer {
-    height: 40vh;
+    height: 68vh;
     background-color: rgb(0, 0, 0);
 }
 
