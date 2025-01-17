@@ -138,6 +138,7 @@ a:hover {
 
 .menu-links.open {
     max-height: 400px;
+    margin-right: 1rem;
 }
 
 .hamburger-icon.open span:first-child {
