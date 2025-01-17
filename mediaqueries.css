@@ -234,6 +234,7 @@
    
     .expertise2-container-text {
         width: auto;
+        padding-top: 2rem;
         padding-inline: 25px;
         justify-content: center;
     }
