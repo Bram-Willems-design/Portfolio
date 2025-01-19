@@ -547,7 +547,9 @@ body.loaded .title {
 
 
 .master-project-container{
+    display: flex;
     margin-top: 6rem;
+    height: fit-content;
 }
 
 
