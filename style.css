@@ -342,6 +342,7 @@ body.loaded .title {
     text-align: justify;   
     padding-inline: 15rem;
     padding-top: 3rem;
+    margin-bottom: 3rem;
     transition: opacity 1s ease-in-out;
 }
 
