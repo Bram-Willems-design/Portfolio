@@ -65,8 +65,9 @@
     }
 }
 
+
 @media screen and (max-width: 600px) {
-    
+      
     #profile {
         height: 83vh;
         margin-bottom: 0;
@@ -147,19 +148,6 @@
         height: fit-content;
     }
 
-   
-    #contact{
-        height: 40vh;
-    }
-
-   
-    #footer {
-        height: auto;
-    }
-
-
-
-
 
     #hamburger-nav {
         display: flex;
@@ -198,7 +186,7 @@
         justify-content: center;
     }
 
-   .past-present-future-container-pic {
+    .past-present-future-container-pic {
         padding: 0;
         margin: 0;
         align-content: center;
@@ -231,7 +219,6 @@
         align-content: center;
     }
 
-   
     .expertise2-container-text {
         width: auto;
         padding-top: 2rem;
@@ -244,17 +231,15 @@
         margin-bottom: 0;
     }
 
-   
+
     #contact{
         height: 40vh;
     }
 
-   
     #footer {
         height: auto;
     }
 
 
-
 }
-    
+       
