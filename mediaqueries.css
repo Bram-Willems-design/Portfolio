@@ -37,6 +37,13 @@
        display: block; 
     }
 
+    .intro-container {
+        width: auto;
+        padding-inline: 25px;
+        justify-content: center;
+    }
+
+   
     .arrow { 
         display: none;
     }
