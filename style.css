@@ -714,8 +714,9 @@ body.loaded .title {
 /* Footer Section */
 
 footer {
-    height: 68vh;
+    height: auto;
     background-color: rgb(0, 0, 0);
+    padding-bottom: 24rem;
 }
 
 footer p {
