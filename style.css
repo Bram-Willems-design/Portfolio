@@ -521,6 +521,21 @@ body.loaded .title {
 }
 
 
+.expertise-areas-container-pic {
+    display: flex;
+    justify-content: center;
+    width: 99vw; 
+}
+
+.expertise-areas-container-pic img {
+    display: flex;
+    padding: 1.5rem;
+    width: 40vw; 
+    height: auto; 
+    align-self: center;
+}
+
+
 .expertise2-container-text h3 {
     text-align: center;
     padding: 1.0rem;
