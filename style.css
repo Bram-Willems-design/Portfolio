@@ -57,17 +57,26 @@ nav:hover {
     font-size: 1.5rem;
 }
 
-a {
+.navigation-link {
     color: rgb(253, 200, 120);
     text-decoration: none;
-    text-decoration-color: white;
+    cursor: pointer;
+    position: relative;
 }
 
-a:hover {
-    color: rgb(255, 94, 0);
-    text-decoration: underline;
-    text-underline-offset: 0.6rem;
-    text-decoration-color: rgb(255, 94, 0);
+.navigation-link::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    background-color: rgb(255, 94, 0);
+    transition: width .3s;
+}
+
+.navigation-link:hover:after {
+    width: 100%;
 }
 
 .logo {
@@ -79,7 +88,7 @@ a:hover {
 .logo:hover {
     cursor: default;
     transition: transform 1s;
-    transform: scale(1.00);
+    transform: scale(1.05);
 }
 
 
