@@ -318,7 +318,7 @@ body.loaded .title {
 }
 
 .btn-color-1:hover {
-    background: rgb(199, 199, 199);
+    background: rgb(255, 94, 0);
     color: rgb(10, 10, 10);
     border: rgb(255, 94, 0) 0.2rem solid;
     transform: scale(0.95);
@@ -331,7 +331,7 @@ body.loaded .title {
 }
 
 .btn-color-2:hover {
-    background: rgb(199, 199, 199);
+    background: rgb(255, 94, 0);
     color: rgb(10, 10, 10);
     border: rgb(255, 94, 0) 0.2rem solid;
     transform: scale(0.95);
