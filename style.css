@@ -290,7 +290,8 @@ body.loaded .title {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-    gap: 2rem; 
+    gap: 2rem;
+    padding-bottom: 1rem;
 }
 
 .btn {
