@@ -17,10 +17,10 @@
         <div ><a href="index.html" class="logo">Bram Willems</a></div>
         <div>
           <ul class="nav-links">
+              <li><a href="#Projects" class="navigation-link">Projects</a></li>  
               <li><a href="#PersonalIdentity" class="navigation-link">About me</a></li>
               <li><a href="#Vision" class="navigation-link">Vision</a></li>
               <li><a href="#Expertise" class="navigation-link">Expertise</a></li>
-              <li><a href="#Projects" class="navigation-link">Projects</a></li>
               <li><a href="#Contact" class="navigation-link">Contact</a></li>
           </ul>
         </div>  
@@ -36,10 +36,10 @@
                 <span></span>
             </div>
             <div class="menu-links">
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#PersonalIdentity" onclick="toggleMenu()">About me</a></li>
                 <li><a href="#Vision" onclick="toggleMenu()">Vision</a></li>
                 <li><a href="#Expertise" onclick="toggleMenu()">Expertise</a></li>
-                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
@@ -63,11 +63,14 @@
             
             <div class="intro-container">
                 <p>
-                    Welcome to my Website. Recently, I graduated with my master's in Industrial Design from the TU/e.
-                    
-                    This website is a combination of my Personal Development Plan, which I updated throughout my master's,
-                    and my Portfolio, which contains the best (relevant) projects and course assignments. Both my Personal
-                    Development Plan and a more general version of my Portfolio can be downloaded down below.
+                    <span style="color: rgb(255, 94, 0)">Welcome to my Personal Website!</span>
+                    I am a creative, technical, and solution-oriented person with an interest 
+                    in the creation and innovation of medical, technical, and consumer products. 
+                    After completing three studies and various relevant experiences, I have 
+                    acquired numerous insights and knowledge that enable me to leverage and 
+                    combine my hard and soft skills. This helps me by developing products and 
+                    systems that enhance user experience, increase usability, and can be manufactured efficiently.   
+                    <span style="color: rgb(255, 94, 0)">Both my Resume and Portfolio can be downloaded down below.</span>
                 </p>
             </div>
             
@@ -77,8 +80,8 @@
 
                 <button 
                 class="btn btn-color-1" 
-                onclick="location.href='./Content_Own_Work/PDF Files/M22_PDP_Willems_B.C.J_Website.pdf'"
-                >Download PDP</button>
+                onclick="location.href='./Content_Own_Work/PDF Files/Resume 2025 Bram Willems (English).pdf'"
+                >Download my CV</button>
                 
                 <button 
                 class="btn btn-color-2" 
@@ -89,6 +92,79 @@
     
 
         </div>
+    </section>
+
+
+    
+    <section id="Projects">
+        <p class="section__text__p1">Browse My Highlighted</p>
+        <h1 class="title">Projects</h1>
+        
+        <div class="master-project-container">
+            <div class="about-containers">
+
+                <div class="column-4 project-1">
+                    
+                    <a href="project1 My-Odine.html" target="_blank">
+                        <img 
+                        src="./Content_Own_Work/Project Banners/My-Odine Project Banner.png" 
+                        alt="Project 1" 
+                        class="Bproject-img">
+                    </a>
+                     
+                <p class="Bproject-text">Final Master Project: <span style="color: rgb(255, 94, 0)">My-Odine</span> </p>
+                </div>
+
+
+                <div class="column-4 project-2">
+                
+                    <a href="project2 NIT.html" target="_blank">
+                        <img 
+                        src="./Content_Own_Work/Project Banners/Vein Finder Project Banner.png"
+                        alt="Project 2" 
+                        class="Bproject-img">
+                    </a>
+                
+                <p class="Bproject-text">Final Bachelor Project: <span style="color: rgb(255, 94, 0)">N I T</span> </p>
+                </div>
+
+
+                <div class="column-4 project-3">
+                
+                    <a href="project3 Quetta.html" target="_blank">
+                        <img 
+                        src="./Content_Own_Work/Project Banners/Quetta Project Banner.png"
+                        alt="Project 3" 
+                        class="Bproject-img">
+                    </a>
+                
+                <p class="Bproject-text">Master Design Project: <span style="color: rgb(255, 94, 0)">Quetta</span> </p>
+                </div>
+
+
+                <div class="column-4 project-4">
+                
+                    <a href="project4 Paradox.html" target="_blank">
+                        <img 
+                        src="./Content_Own_Work/Project Banners/Paradox Project Banner.jpg" 
+                        alt="Project 4" 
+                        class="Bproject-img">
+                    </a>
+                
+                <p class="Bproject-text">Master Elective Project: <span style="color: rgb(255, 94, 0)">Paradox</span> </p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <img 
+        src="./Content_Own_Work/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#PersonalIdentity'"
+        />
+    
     </section>
 
 
@@ -480,86 +556,15 @@
           
         
         <img 
-        src="./Content_Own_Work/arrow.png" 
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#Projects'"
-        />
-
-
-    </section>
-
-
-    <section id="Projects">
-        <p class="section__text__p1">Browse My</p>
-        <h1 class="title">Projects</h1>
-        
-        <div class="master-project-container">
-            <div class="about-containers">
-
-                <div class="column-4 project-1">
-                    
-                    <a href="project1 My-Odine.html" target="_blank">
-                        <img 
-                        src="./Content_Own_Work/Project Banners/My-Odine Project Banner.png" 
-                        alt="Project 1" 
-                        class="Bproject-img">
-                    </a>
-                     
-                <p class="Bproject-text">M2.2 FMP Project: <span style="color: rgb(255, 94, 0)">My-Odine</span> </p>
-                </div>
-
-
-                <div class="column-4 project-2">
-                
-                    <a href="project2 NIT.html" target="_blank">
-                        <img 
-                        src="./Content_Own_Work/Project Banners/Vein Finder Project Banner.png"
-                        alt="Project 2" 
-                        class="Bproject-img">
-                    </a>
-                
-                <p class="Bproject-text">M1.2 Project: <span style="color: rgb(255, 94, 0)">Needle Injection Tool</span> </p>
-                </div>
-
-
-                <div class="column-4 project-3">
-                
-                    <a href="project3 Quetta.html" target="_blank">
-                        <img 
-                        src="./Content_Own_Work/Project Banners/Quetta Project Banner.png"
-                        alt="Project 3" 
-                        class="Bproject-img">
-                    </a>
-                
-                <p class="Bproject-text">M1.1 Project: <span style="color: rgb(255, 94, 0)">Quetta</span> </p>
-                </div>
-
-
-                <div class="column-4 project-4">
-                
-                    <a href="project4 Paradox.html" target="_blank">
-                        <img 
-                        src="./Content_Own_Work/Project Banners/Paradox Project Banner.jpg" 
-                        alt="Project 4" 
-                        class="Bproject-img">
-                    </a>
-                
-                <p class="Bproject-text">M2.1 Elective Project: <span style="color: rgb(255, 94, 0)">Paradox</span> </p>
-                </div>
-
-            </div>
-        </div>
-
-
-        <img 
         src="./Content_Own_Work/arrow2.png" 
         alt="Arrow2 icon"
         class="icon arrow2"
         onclick="location.href='./#desktop-nav'"
         />
-    
+
+
     </section>
+
 
 
     <section id="Contact">
@@ -625,6 +630,4 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
 
