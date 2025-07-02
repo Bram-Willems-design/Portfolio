@@ -313,26 +313,26 @@ body.loaded .title {
 
 .btn-color-1 {
     background: rgb(250, 250, 250); 
-    color: rgb(255, 94, 0);
+    color: rgb(10, 10, 10);
     border: rgb(255, 94, 0) 0.2rem solid;
 }
 
 .btn-color-1:hover {
-    background: rgb(255, 255, 255);
-    color: rgb(255, 94, 0);
+    background: rgb(199, 199, 199);
+    color: rgb(10, 10, 10);
     border: rgb(255, 94, 0) 0.2rem solid;
     transform: scale(0.95);
 }
 
 .btn-color-2 {
     background: rgb(250, 250, 250); 
-    color: rgb(255, 94, 0);
+    color: rgb(10, 10, 10);
     border: rgb(255, 94, 0) 0.2rem solid;
 }
 
 .btn-color-2:hover {
-    background: rgb(255, 255, 255);
-    color: rgb(255, 94, 0);
+    background: rgb(199, 199, 199);
+    color: rgb(10, 10, 10);
     border: rgb(255, 94, 0) 0.2rem solid;
     transform: scale(0.95);
 }
