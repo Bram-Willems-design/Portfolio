@@ -230,7 +230,7 @@
 
     .intro-container {
         width: auto;
-        padding-inline: 25px;
+        padding-inline: 6px;
         justify-content: center;
     }
 
@@ -293,6 +293,10 @@
         align-content: center;
     }
 
+    .expertise-container-text {
+        padding-inline: 2rem;
+    }
+
     .expertise2-container-text {
         width: auto;
         padding-top: 2rem;
@@ -310,10 +314,10 @@
         height: 40vh;
     }
 
-    #footer {
-        display: flex;
+    footer {
+        height: 24vh;
+        padding-inline: 1rem;
     }
-
 
 }
     
