@@ -26,17 +26,17 @@
 
 
     .personal-identity-text-container {
-        padding-inline: 0rem;
+        padding-inline: 2rem;
     }
 
 
     .professional-identity-container-text {
-        padding-inline: 0rem;
+        padding-inline: 2rem;
     }
 
 
     .vision-container-text {
-        padding-inline: 0rem;
+        padding-inline: 2rem;
     }
 
 
@@ -69,7 +69,7 @@
 
 
 /* Ipad Screen Portrait */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     
     #desktop-nav {
         display: none;
