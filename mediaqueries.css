@@ -25,6 +25,10 @@
     }
 
 
+    .master-project-container{
+        margin-left: 4rem;
+    }
+
     .personal-identity-text-container {
         padding-inline: 2rem;
     }
@@ -96,6 +100,11 @@
         justify-content: center;
     }
 
+    .master-project-container{
+        margin-left: 12rem;
+    }
+
+
     .arrow { 
         display: none;
     }
@@ -132,6 +141,10 @@
     #profile {
         height: 83vh;
         margin-bottom: 0;
+    }
+
+    .master-project-container{
+        margin-left: 0rem;
     }
 
     #PersonalIdentity, 
