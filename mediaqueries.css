@@ -69,7 +69,7 @@
 
 
 /* Ipad Screen Portrait */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     
     #desktop-nav {
         display: none;
