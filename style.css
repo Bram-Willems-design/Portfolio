@@ -366,7 +366,7 @@ body.loaded .title {
 
 
 .column-4 {
-    float: left;
+    float: none;
     width: 21%;
     padding: 1px;
     margin: 12px;
