@@ -290,7 +290,7 @@ body.loaded .title {
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-    gap: 2rem;
+    gap: 2rem; 
     padding-bottom: 1rem;
 }
 
@@ -353,6 +353,7 @@ body.loaded .title {
     display: flex;
     margin-top: 6rem;
     height: fit-content;
+    align-self: center;
 }
 
 
@@ -370,7 +371,7 @@ body.loaded .title {
     width: 21%;
     padding: 1px;
     margin: 12px;
-    height: 360px; /* Make column higher to make the text underneath also visual */
+    height: 300px; /* Make column higher to make the text underneath also visual */
     min-width: 300px;
     overflow: hidden;
     text-align: center; /* Center-align the text */
