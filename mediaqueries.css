@@ -105,6 +105,9 @@
         margin-left: 12rem;
     }
 
+    .expertise-areas-container-pic img {
+        width: 60vw;
+    }
 
     .arrow { 
         display: none;
@@ -239,26 +242,21 @@
     
     .personal-identity-text-container {
         width: auto;
-        padding-inline: 0;
+        padding-inline: 1rem;
         justify-content: center;
     }
 
 
     .professional-identity-container-text {
         width: auto;
-        padding-inline: 0;
+        padding-inline: 1rem;
         justify-content: center;
     }
 
 
-    #Past-Present-Future, 
-    .about-containers {
-       display: block; 
-    }
-
     .past-present-future-container-text {
         width: auto;
-        padding-inline: 0;
+        padding-inline: 1rem;
         justify-content: center;
     }
 
@@ -269,7 +267,7 @@
     }
 
     .past-present-future-container-pic img{
-        width: 80vw;
+        width: 70vw;
         padding: 0;
         margin: 2rem;
         align-content: center;
@@ -278,7 +276,7 @@
 
     .vision-container-text {
         width: auto;
-        padding-inline: 0;
+        padding-inline: 1rem;
         justify-content: center;
     }
 
@@ -293,6 +291,10 @@
         padding: 0;
         margin: 1rem;
         align-content: center;
+    }
+
+    .expertise-areas-container-pic img {
+        width: 80vw;
     }
 
     .expertise-container-text {
@@ -317,7 +319,7 @@
     }
 
     footer {
-        height: 24vh;
+        height: auto;
         padding-inline: 1rem;
     }
 
