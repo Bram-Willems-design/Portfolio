@@ -1,21 +1,76 @@
 
 
 
-
+/* Ipad Screen Landscape */
 @media screen and (max-width: 1400px) {
    
+    #desktop-nav {
+        gap: 20rem;
+    }
+   
     #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+        height: 83vh;
+        margin-bottom: 6rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
     
+    .intro-container {
+        width: 600px;
+        padding-inline: 25px;
+        justify-content: center;
+    }
+
+
     .aboutcontainers {
-    flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+
+    .personal-identity-text-container {
+        padding-inline: 4rem;
+    }
+
+
+    .professional-identity-container-text {
+        padding-inline: 4rem;
+    }
+
+
+    .vision-container-text {
+        padding-inline: 4rem;
+    }
+
+
+    
+    .expertise-container-text {
+        padding-inline: 4rem;
+    }
+
+    .expertise-container-pic {
+        display: flex;
+        justify-content: center;
+        width: 99vw;
+    }
+
+    .expertise-container-pic img {
+        width: 60vw;
+    }
+    
+    .expertise2-container-text {
+        padding-inline: 4rem;
+    }
+
+
+
+    footer {
+        padding-inline: 10rem;
     }
 
 }
 
 
+/* Ipad Screen Portrait */
 @media screen and (max-width: 1200px) {
     
     #desktop-nav {
@@ -43,7 +98,6 @@
         justify-content: center;
     }
 
-   
     .arrow { 
         display: none;
     }
@@ -73,8 +127,10 @@
 }
 
 
-@media screen and (max-width: 600px) {
-      
+/* Phone Screen */
+@media screen and (max-width: 600px) { 
+    
+    
     #profile {
         height: 83vh;
         margin-bottom: 0;
@@ -234,7 +290,7 @@
     }
 
     #Projects {
-        height: 200vh;
+        height: fit-content;
         margin-bottom: 0;
     }
 
@@ -244,9 +300,9 @@
     }
 
     #footer {
-        height: auto;
+        display: flex;
     }
 
 
 }
-       
+    
