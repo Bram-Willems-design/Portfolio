@@ -82,7 +82,7 @@
 
     #hamburger-nav {
         display: flex;
-
+        gap: 30rem;
     }
 
     #PersonalIdentity, 
