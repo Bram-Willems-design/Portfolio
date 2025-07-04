@@ -352,6 +352,7 @@ body.loaded .title {
 .master-project-container{
     display: flex;
     margin-top: 6rem;
+    margin-left: 4rem;
     height: fit-content;
     align-self: center;
 }
