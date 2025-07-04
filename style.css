@@ -127,6 +127,7 @@ nav:hover {
 
 .menu-links {
     position: absolute;
+    right: 0;
     top: 100%;
     background-color: rgb(250, 250, 250);
     width: fit-content;
