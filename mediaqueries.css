@@ -12,7 +12,11 @@
         padding-right: 3rem;
         gap: 3rem;
     }
-    
+
+    .section__pic-container img {
+        width: 300px;
+    }
+
     .intro-container {
         width: 600px;
         padding-inline: 25px;
