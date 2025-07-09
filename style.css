@@ -371,10 +371,10 @@ body.loaded .title {
 
 .column-4 {
     float: none;
-    width: 21%;
+    width: 29%;
     padding: 1px;
     margin: 12px;
-    height: 300px; /* Make column higher to make the text underneath also visual */
+    height: 440px; /* Make column higher to make the text underneath also visual */
     min-width: 300px;
     overflow: hidden;
     text-align: center; /* Center-align the text */
@@ -404,6 +404,18 @@ body.loaded .title {
     border-radius: 0.5rem;
   }
 
+    .project-5 {
+    background-color:rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 0.2rem solid;
+    border-radius: 0.5rem;
+  }
+
+    .project-6 {
+    background-color:rgb(255, 255, 255);
+    border: rgb(255, 255, 255) 0.2rem solid;
+    border-radius: 0.5rem;
+  }
+
 
   .Bproject-img {
     display: block;
@@ -424,30 +436,7 @@ body.loaded .title {
     transform: scale(1.05);
   }
 
-  /*
-    .project-1:hover {
-    border: rgb(255, 94, 0) 0.2rem solid;
-    transition: transform 0.5s;
-    transform: scale(0.95);
 
-  .project-2:hover {
-    border: rgb(255, 94, 0) 0.2rem solid;
-    transition: transform 0.5s;
-    transform: scale(0.95);
-  }
-
-  .project-3:hover {
-    border: rgb(255, 94, 0) 0.2rem solid;
-    transition: transform 0.5s;
-    transform: scale(0.95);
-  }
-  
-  .project-4:hover {
-    border: rgb(255, 94, 0) 0.2rem solid;
-    transition: transform 0.5s;
-    transform: scale(0.95);
-  }
-  */
 
 .arrow2 {
     position: absolute;
