@@ -16,7 +16,7 @@
     .section__pic-container img {
         width: 300px;
     }
-
+    
     .intro-container {
         width: 600px;
         padding-inline: 25px;
@@ -31,6 +31,10 @@
 
     .master-project-container{
         margin-left: 4rem;
+    }
+
+    .column-4 {
+        height: 300px;
     }
 
     .personal-identity-text-container {
@@ -109,6 +113,10 @@
         margin-left: 12rem;
     }
 
+    .column-4 {
+        height: 300px;
+    }
+
     .expertise-areas-container-pic img {
         width: 60vw;
     }
@@ -151,9 +159,19 @@
         margin-bottom: 0;
     }
 
+    #Projects {
+        height: fit-content;
+        margin-bottom: 0;
+    }
+
     .master-project-container{
         margin-left: 0rem;
     }
+
+    .column-4 {
+    height: 340px;
+    }
+
 
     #PersonalIdentity, 
     #ProfessionalIdentity,
@@ -310,11 +328,6 @@
         padding-top: 2rem;
         padding-inline: 25px;
         justify-content: center;
-    }
-
-    #Projects {
-        height: fit-content;
-        margin-bottom: 0;
     }
 
 
