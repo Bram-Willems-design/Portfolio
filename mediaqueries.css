@@ -158,7 +158,13 @@
         height: 83vh;
         margin-bottom: 0;
     }
+    
+    .section__pic-container {
+        height: 200px;
+        width: 200px;
+    }
 
+   
     #Projects {
         height: fit-content;
         margin-bottom: 0;
@@ -342,3 +348,4 @@
 
 }
     
+
