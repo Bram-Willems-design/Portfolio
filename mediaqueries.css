@@ -160,8 +160,8 @@
     }
     
     .section__pic-container{
-        height: 250px;
-        width: 250px;
+        height: scale(0.80);
+        width: scale(0.80);
     }
 
    
@@ -348,6 +348,7 @@
 
 }
     
+
 
 
 
