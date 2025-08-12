@@ -159,9 +159,9 @@
         margin-bottom: 0;
     }
     
-    .section__pic-container img {
-        height: 220px;
-        width: 220px;
+    .section__pic-container{
+        height: 250px;
+        width: 250px;
     }
 
    
@@ -348,6 +348,7 @@
 
 }
     
+
 
 
 
